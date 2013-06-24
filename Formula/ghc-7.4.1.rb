@@ -12,14 +12,14 @@ class Ghcbinary < Formula
 end
 
 class Ghctestsuite < Formula
-  url 'http://www.haskell.org/ghc/dist/7.6.1/ghc-7.6.1-testsuite.tar.bz2'
-  sha1 '525c3c72ad097d125c375e7947788a8b87a2e401'
+  url 'http://www.haskell.org/ghc/dist/7.4.1/ghc-7.4.1-testsuite.tar.bz2'
+  sha1 'a09e01509f6af7006af655e13ea5957854fedb64'
 end
 
 class Ghc741 < Formula
   homepage 'http://haskell.org/ghc/'
-  url 'http://www.haskell.org/ghc/dist/7.6.1/ghc-7.6.1-src.tar.bz2'
-  sha1 'd463520febb4ad3c5b7a724584bc5a3354ac1af6'
+  url 'http://www.haskell.org/ghc/dist/7.4.1/ghc-7.4.1-src.tar.bz2'
+  sha1 '66c5a027fef1ed01c35c3493e964fb3657efc936'
 
   env :std
 
