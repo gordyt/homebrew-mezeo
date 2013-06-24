@@ -29,12 +29,6 @@ class Ghc741 < Formula
   option '32-bit'
   option 'tests', 'Verify the build using the testsuite in Fast Mode, 5 min'
 
-  bottle do
-    sha1 '332ed50be17831557b5888f7e8395f1beb008731' => :mountain_lion
-    sha1 '64a7548eb2135a4b5f2276e59f435a39c2d2961f' => :lion
-    sha1 '166bf3c8a512b58da4119b2997a1f45c1f7c65b5' => :snow_leopard
-  end
-
   fails_with :clang do
     cause <<-EOS.undent
       Building with Clang configures GHC to use Clang as its preprocessor,
