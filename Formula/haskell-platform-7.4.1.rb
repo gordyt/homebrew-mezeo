@@ -11,7 +11,7 @@ class HaskellPlatform741 < Formula
 
   def install
     # libdir doesn't work if passed to configure, needs to be set in the environment
-    system "./configure", "--prefix=#{prefix}"
+    system "./configure", "--prefix=#{prefix} --enable-unsupported-ghc-version"
     ENV['EXTRA_CONFIGURE_OPTS'] = "--libdir=#{lib}/ghc"
     system "make install"
   end
