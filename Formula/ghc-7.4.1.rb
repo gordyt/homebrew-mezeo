@@ -16,7 +16,7 @@ class Ghctestsuite < Formula
   sha1 '525c3c72ad097d125c375e7947788a8b87a2e401'
 end
 
-class Ghc < Formula
+class Ghc741 < Formula
   homepage 'http://haskell.org/ghc/'
   url 'http://www.haskell.org/ghc/dist/7.6.1/ghc-7.6.1-src.tar.bz2'
   sha1 'd463520febb4ad3c5b7a724584bc5a3354ac1af6'
